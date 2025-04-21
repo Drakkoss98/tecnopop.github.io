@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #0f172a;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.logo {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.producto {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.producto h3 {
+    margin: 0 0 0.5rem 0;
+}
+
+.producto a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background: #0f172a;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
